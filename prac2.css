@@ -1,0 +1,78 @@
+body {
+    background-color: #282C34;
+}
+.card {
+   padding: 30px;
+   margin: 2%;
+   width: 150px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 300px;
+   box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0, 25);
+   border-radius: 3px;
+   transition: 2s all;
+   display: inline-block;
+}
+.container {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+
+}
+.hi {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: arial, helvetica;
+    font-size: 20px;
+    text-shadow: 2px 0px 0px blue;
+
+}
+.btn {
+    font-family: arial, helvetica;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    margin-top: 230px;
+    cursor: pointer;
+    
+
+}
+.btn {
+    background: #a188fc;
+    background: linear-gradient(to right, #a188fc 0%, #2eeade 50%, #a188fc 100%);
+    background-size: 200%;
+    background-position: 100%;
+    color: #ccffff;
+    padding: 7px 30px;
+    border-radius: 30px;
+    transition: all 0.7s;
+    border: solid 1px #333;
+    margin-top: 0px;
+
+}
+.btn:hover {
+    background: #a188fc;
+    background: linear-gradient(to right, #a188fc 0%, #2eeade 50%, #a188fc 100%);
+    background-size: 200%;
+    background-position: 0%;
+    color: #ccffff;
+    box-shadow: 0 0 20px #55ffff;
+    text-shadow: 0 0 0 20 #000000;
+    border: solid 1px #ccffff;
+
+}
+ .container:hover .card {
+    filter: blur(3px);
+    opacity: 0.1;
+    transform: scale(.98);
+    box-shadow: none;
+
+ }
+ .container:hover .card:hover {
+    transform: scale(1);
+    filter: blur(0px);
+    opacity: 1;
+    box-sizing: 0 0 20px #229999;
+ }
